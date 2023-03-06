@@ -17,7 +17,7 @@ body {
 
 .second-img {
   width: 100%;
-  background-image: url('./images/new-york-city.webp');
+  background-image: url('../images/new-york-city.webp');
   background-position: center;
   background-size: cover;
 
@@ -315,6 +315,10 @@ body {
   .text2 {
     font-size: 18px;
   }
+  .head-main{
+    font-size: 25px;
+    margin-left: 10px;
+  }
 
 }
 
@@ -369,6 +373,17 @@ body {
   .text2 {
     font-size: 18px;
   }
+    .size {
+      font-size: 13px;
+      margin: 4% 0 4% 2%;
+    }
+        .img-content{
+          font-size: 23px;
+        }
+        .sub-head{
+          font-size: 26px;
+          margin: 4% 2%;
+        }
 }
 
 @media (min-width:786px) {
