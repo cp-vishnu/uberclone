@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/uber-move-2');
+.img{
+  width:fit-content;
+
+}
+
+
+body {
+  margin: 0px;
+  font-family: 'Uber Move', sans-serif;
+}
+
+
+.main-img{
+  width: 100%;
+  background-image: url('./images/About_us_600.webp');
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  padding: 5% 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-head{
+  font-size: 45px;
+  margin-left: 4%;
+  color: white;
+
+}
+
+.para{
+width: 70%;
+margin: 8% 6% 0 6%;
+ 
+  
+}
+
+.first-para{
+ margin: 3% 0 ;
+ line-height: 1.5;
+}
