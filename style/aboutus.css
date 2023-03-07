@@ -13,7 +13,7 @@ body {
 
 .main-img{
   width: 100%;
-  background-image: url('./images/About_us_600.webp');
+  background-image: url('../images/About_us_600.webp');
   background-position: center;
   background-size: cover;
   height: 550px;
@@ -39,4 +39,110 @@ margin: 8% 6% 0 6%;
 .first-para{
  margin: 3% 0 ;
  line-height: 1.5;
+}
+
+.drop{
+ margin: 20px 30px;
+}
+
+.summery{
+  text-align: end;
+  /* margin-right: 20px; */
+}
+
+.bi{
+  font-size: 25px;
+}
+
+.hide{
+  display: none;
+}
+.hide-para{
+  line-height: 1.5;
+  transition: 0.2s;
+  margin-left: 5%;
+}
+.hide-para-div{
+  margin: 0 3%;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.2s;
+
+}
+.hr-line{
+  margin: 0 3% 3% 3%;
+  width: 90%;
+ border-bottom: rgb(150, 146, 146) 1px solid;
+
+}
+
+.ceo-letter{
+  width: 100%;
+    background-image: url('../images/dara-desktop.webp');
+    background-position: center;
+    background-size: cover;
+  height: 300px;
+    padding: 5% 0px;
+}
+
+.ceo-head{
+  color: #ffff;
+  font-size: 52px;
+  line-height: 64px;
+  font-weight: 700;
+  
+}
+
+.ceo-para{
+  color: #ffff;
+  font-size: 16px;
+  line-height: 24px;
+margin-top: 3%;
+  
+}
+
+.ceo-btn{
+  color: #ffff;
+  background-color: #000000;
+  font-size: 16px;
+  padding: 14px 25px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 4%;
+}
+
+.img-content{
+  margin: 0 6%;
+  width: 40%;
+}
+
+.container-main{
+  margin: 4% 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+
+.img{
+  width: 90%;
+
+}
+
+.item{
+      line-height: 28px;
+}
+
+.container-head{
+  font-size: 36px;
+  margin-bottom: 3%;
+}
+
+.container-footer{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cont-div{
+  border-bottom: rgb(189, 176, 176) 1px solid ;
+  display: inline-block;
 }
